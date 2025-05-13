@@ -1,6 +1,7 @@
 
 
 
+
 a {
     color: black;
   }
@@ -11,23 +12,36 @@ header {
   }
   
   .logo {
-    padding: 15px 17px;
-    height: 40px;
+    padding: 0px 10px;
+    height: 52px;
     float: left;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff
+    width: 55px;
+    border-radius: 18px;
   }
+  #sakumu {
+    padding: 0px 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+
+  }
+#sakumu2 {
+  padding: 0px 25px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+  
   
   .nav-bar {
-    position: fixed;
-    top: 8px;
-    width: 100%;
-    height: 55px;
-    box-sizing: border-box;
-    background-color: rgb(205, 92, 92);
-    border-radius: 1px solid #fff;
+      width: 100%;
+      height: 58px;
+      box-sizing: border-box;
+      background-color: #333(205, 92, 92);
+      border: 1px solid rgb(255, 215, 0)
   }
   
   
@@ -53,9 +67,9 @@ header {
     text-decoration: none;
     color: rgb(255, 255, 255);
     line-height: 55px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
-    padding: 0px 15px;
+    padding: 0px 10px;
 }
   
   
@@ -162,4 +176,43 @@ table th {
     border-radius: 5px; 
   }
 
-  
+  .is-valid {
+    border: 2px solid green;
+    box-shadow: 2px 2px 5px green;
+  }
+  .is-invalid {
+    border: 2px solid red;
+    box-shadow: 2px 2px 5px red;
+  }
+ 
+.logoAdm {
+    padding: 0px 10px;
+    height: 52px;
+    float: left;
+    width: 55px;
+    border-radius: 18px;
+}
+
+.letrasAltas {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.letrasBajas {
+    text-transform: lowercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}	
+
+.letras {
+    text-transform: lowercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}

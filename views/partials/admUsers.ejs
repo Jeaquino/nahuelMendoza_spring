@@ -1,7 +1,6 @@
-<%-include("../partials/headerAdm") %>
 <body>
     
-
+<%-include("../partials/headerAdm") %>
 <main class="table-admin">
 
     <div class="titulo-admin">
@@ -22,23 +21,23 @@
                                             
             </thead>
             <tbody>
-                <% users.forEach(({id,nombre,apellido,email,rol})=> { %>
+                <% users.forEach(({id,name,surname,email,rol})=> { %>
 
                     <tr>
                         <td>
                         <%=id %>
                     </td>
                     <td>
-                        <%= nombre %>
+                        <%= name %>
                     </td>
                     <td>
-                        $<%= apellido %>
+                        <%= surname %>
                     </td>
                     <td>
                         <%= email %>
                     </td>
                     <td>
-                        <%= rol %>
+                        <%= rol.name %>
                     </td>
                     <td>
                         <div>
